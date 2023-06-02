@@ -28,3 +28,42 @@ header{
    border-radius: 100%;
    border: 2px solid #ffff;
 }
+
+/*styles hero*/
+#hero{
+   position: relative;
+}
+
+#hero #computadora{
+   display: inline-block;
+   width: 100%;
+}
+
+#hero .information-container{
+   position: absolute;
+   top: 50%;
+   left: 0;
+   width: 100%;
+   display: flex;
+   color: white;
+   padding: 0 90px;
+   transform: translateY(-50%);
+}
+
+#hero .information-container #foto{
+   width: 200px;
+}
+#hero .information-container #foto img{
+   border-radius: 100%;
+}
+
+#hero .information-container .information{
+   margin-left: 80px;
+   font-weight: bold;
+}
+
+#hero .information-container .information span{
+   color: #b5b5b5;
+   margin-bottom: 100px;
+   display: inline-block;
+}
